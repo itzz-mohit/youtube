@@ -14,7 +14,7 @@ export const YOUTUBE_VIDEOS_API =
   API_KEY;
 
 export const YOUTUBE_SEARCH_API =
-  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+  "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const YOUTUBE_VIDEO_BYID =
   "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&key=" +
@@ -27,4 +27,3 @@ export const YOUTUBE_COMMENTS_API =
 export const YOUTUBE_DESIRE_SEARCH_API =
   "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=surfing&key=AIzaSyCk_cBmGlYvyz_ImU27VttBM3lednrGu5w";
 
-// https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=AIzaSyCk_cBmGlYvyz_ImU27VttBM3lednrGu5w
